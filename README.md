@@ -4,10 +4,10 @@ This repo contains my attempt to solve the problem of recognition ships using tf
 The competition aims to study satellite pictures of container ships and create masks that outline the ships' shapes.
 
 First, we have to download the data from [here](https://www.kaggle.com/competitions/airbus-ship-detection/data?select=train_ship_segmentations_v2.csv) and store it in the base dir.  
-` -train_v2 
-  -test_v2
-  -train_ship_segmentations_v2.csv
-  -sample_submission_v2.csv`
+` - train_v2 
+  - test_v2
+  - train_ship_segmentations_v2.csv
+  - sample_submission_v2.csv`
 
 The solution consists of one jupyter notebook. There, loading and displaying of data, decryption of the RLE code for displaying the mask is implemented. There is implemented:
 
